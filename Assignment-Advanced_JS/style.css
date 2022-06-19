@@ -1,0 +1,90 @@
+body {
+    color: black;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.wpm,
+.cpm,
+.errors,
+.timer,
+.accuracy {
+    background-color: #ccda46;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: black 5px 8px 5px;
+}
+
+.cpm,
+.wpm {
+    display: none;
+}
+
+.header-text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.current-wpm,
+.current-cpm,
+.current-time,
+.current-errors,
+.current-accuracy {
+    font-size: 2.75rem;
+}
+
+.instruction {
+    background-color: #ccda46;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.input_text {
+    background-color: #f5f5c6;
+    height: 30px;
+    width: 55%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.restart_btn {
+    display: none;
+    background-color: #326765;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 0px;
+    box-shadow: black 5px 8px 5 px;
+}
+
+.incorrect_char {
+    color: red;
+    text-decoration: underline;
+}
+
+.correct_char {
+    color: darkgreen;
+}
