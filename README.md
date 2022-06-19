@@ -12,4 +12,6 @@ It contains the following files:
 
 I have also added a screenshot pdf for reference.
 
+    To see the app's working I've added a video recording as well!
+
 
