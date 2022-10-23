@@ -1,4 +1,4 @@
-#Typing Speed Checker
+# Typing Speed Checker
 
 
 Check Out the Live Demo at
